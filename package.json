@@ -1,0 +1,22 @@
+{
+  "name": "image-search-microservice",
+  "version": "1.0.0",
+  "description": "image search microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escobot/image-search-microservice.git"
+  },
+  "author": "pbgnz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/escobot/image-search-microservice/issues"
+  },
+  "homepage": "https://github.com/escobot/image-search-microservice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
