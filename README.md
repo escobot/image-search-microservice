@@ -13,3 +13,35 @@ Build a full stack app that allows you to search for images like this: https://c
 * User Story: I can get a list of the most recently submitted search strings.
 
 ## Notes
+
+Requirements:
+- NodeJS
+- NPM
+- Unplash API key
+
+Run using NPM:
+```bash
+# install dependencies
+npm install
+
+# run app at localhost:8000
+npm start
+```
+Run using Docker:
+```bash
+# build image
+docker build -t pbgnz/api-image-search .
+
+# run image
+docker run -p 8000:8000 -d pbgnz/api-image-search
+```
+
+Usage
+```bash
+#search
+http://localhost:8000/{query}?offset={offset}&page={page}&limit={limit}
+
+# get most recent search strings
+http://localhost:8000/api/recent
+
+```
